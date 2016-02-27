@@ -1,0 +1,84 @@
+body {
+    background-color: #ebe6e0;
+}
+.brown-dark-text {
+    color: #726257;
+}
+.blue-text {
+    color: #6A76C6;
+}
+.white-text {
+    color: white;
+}
+.background-dark-beige {
+    background-color: #BFA895;
+}
+.background-white {
+    background-color: white;
+}
+.background-light-beige {
+    background-color: #E2D0C5;
+}
+#navigation li {
+    font-size: 1.5em;
+    padding: 1em;
+}
+#nav {
+    text-align: center;
+    padding-top: 3em;
+}
+#home {
+    height: 23em;
+    padding: 5em;
+}
+#name-logo {
+    letter-spacing: 0.4em;
+    text-shadow: 1px 1px 2px #726257, 0 0 0.4em #726257;
+}
+#home .btn {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+}
+#about-my {
+    background-image: url(../image/about-me.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+#describe{
+    height: auto;
+}
+.heading-main {
+    text-align: center;
+    padding-top: 1.5em;
+}
+.paragraf {
+    text-align: center;
+    padding: 1.5em 10em;
+}
+ul.skill li {
+    text-align: left;
+    width: 15em;
+    padding-left: 1.5em;
+    padding-bottom: 1.5 em;
+}
+.icon {
+    position: absolute;
+}
+.description {
+    margin-left: 3em;
+}
+.all-skill {
+    padding-bottom: 2em;
+}
+#works {
+    flex-direction: row;
+    padding: 1em;
+    margin-bottom: 8em;
+}
+#works img {
+    padding: 0.7em;
+}
+#mywork {
+    text-align: center;
+}
