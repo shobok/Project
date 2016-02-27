@@ -71,13 +71,18 @@ ul.skill li {
 .all-skill {
     padding-bottom: 2em;
 }
-#works {
+#works-blocks {
     flex-direction: row;
     padding: 1em;
     margin-bottom: 8em;
 }
-#works img {
-    padding: 0.7em;
+#works-blocks img {
+    margin: 0.5em;
+    opacity: 0.8;
+    box-shadow: 0 0 1em;
+}
+#works-blocks img:hover {
+    opacity: 0.1;
 }
 #mywork {
     text-align: center;
