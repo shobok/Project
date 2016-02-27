@@ -87,3 +87,11 @@ ul.skill li {
 #mywork {
     text-align: center;
 }
+
+
+
+@media screen and (max-width: 560px) {
+    .paragraf {
+    padding: 1.5em 1.5em;
+}
+}
