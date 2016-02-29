@@ -10,6 +10,9 @@ body {
 .white-text {
     color: white;
 }
+.light-beige-text {
+    color: #E2D0C5;
+}
 .background-dark-beige {
     background-color: #BFA895;
 }
@@ -45,6 +48,9 @@ body {
     background-position: left top;
     background-size: contain;
 }
+.icon-shadow {
+    text-shadow: 1px 1px 2px #726257, 0 0 0.1em;
+}
 #describe{
     height: auto;
 }
@@ -58,7 +64,7 @@ body {
 }
 ul.skill li {
     text-align: left;
-    width: 15em;
+    width: 17em;
     padding-left: 1.5em;
     padding-bottom: 1.5 em;
 }
@@ -66,32 +72,133 @@ ul.skill li {
     position: absolute;
 }
 .description {
-    margin-left: 3em;
+    margin-left: 5em;
 }
 .all-skill {
     padding-bottom: 2em;
 }
 #works-blocks {
-    flex-direction: row;
+    margin-bottom: 6em;
     padding: 1em;
-    margin-bottom: 8em;
-}
-#works-blocks img {
-    margin: 0.5em;
-    opacity: 0.8;
-    box-shadow: 0 0 1em;
-}
-#works-blocks img:hover {
-    opacity: 0.1;
+    text-align: center;
 }
 #mywork {
     text-align: center;
 }
-
-
+.img-hover {
+    opacity: 0.8;
+    box-shadow: 0 0 0.7em #726257;
+    position: relative;
+    width: 293px;
+    height: 244px;
+    margin: 10px;
+    display:inline-block;
+}
+.img-hover:hover span{
+    display: block;
+    background-color: #726257;
+    opacity: 0.9;
+    color: #E2D0C5;
+}
+.describe-img {
+    position: absolute;
+    height: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    display: none;
+    padding-top: 3em;
+    font-size: 16px;
+}
+#carousel {
+    margin-bottom: 6em;
+}
+.carousel-control.left, .carousel-control.right{
+    background-image: none;
+}
+.contacts {
+    margin-top: 4em;
+    margin-bottom: 6em;
+}
+.info-about-me {
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 10em;
+}
+.btn-send {
+    width: 300px;
+    background-color: #726257;
+}
+.btn-send:hover {
+    background-color: #E2D0C5;
+    color: #726257;
+}
+fieldset {
+    width: 350px;
+    height: 350px;
+    padding: 10px 10px;
+}
+.contact-form {
+    width: 300px;
+    height: 50px;
+    position: relative;
+}
+.contact-form .input-text {
+    width: 300px;
+    height: 50px;
+    border: none;
+    float: left;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+.contact-form .form-icon {
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+}
+#message {
+    height: 150px;
+    padding-top: 15px;
+}
+.social-block {
+    background-color: #726257;
+    padding: 2em;
+    padding-left: 6em;
+    margin-bottom: 6em;
+}
+.social {
+    width: 60px;
+    height: 60px;
+}
+.social:hover {
+    color: white;
+    background-color: #ebe6e0;
+}
+a:link {
+    color: #726257;
+}
+a:visited {
+    color: #726257;
+}
+.describe-img a:link {
+    color: white;
+}
+.describe-img a:visited {
+    color: white;
+}
 
 @media screen and (max-width: 560px) {
     .paragraf {
-    padding: 1.5em 1.5em;
+        padding: 1.5em 1.5em;
+    }
+    .info-about-me {
+        padding-left: 3em;
+    }
+    fieldset {
+        margin-left: 3em;
+    }
 }
-}
+
+
+
