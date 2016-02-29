@@ -94,7 +94,7 @@ ul.skill li {
     margin: 10px;
     display:inline-block;
 }
-.img-hover:hover span{
+.img-hover:hover div{
     display: block;
     background-color: #726257;
     opacity: 0.9;
@@ -168,8 +168,8 @@ fieldset {
     margin-bottom: 6em;
 }
 .social {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
 }
 .social:hover {
     color: white;
