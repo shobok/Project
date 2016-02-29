@@ -164,7 +164,7 @@ fieldset {
 .social-block {
     background-color: #726257;
     padding: 2em;
-    padding-left: 6em;
+    padding-left: 4em;
     margin-bottom: 6em;
 }
 .social {
@@ -196,7 +196,7 @@ a:visited {
         padding-left: 3em;
     }
     fieldset {
-        margin-left: 3em;
+        margin-left: 0;
     }
 }
 
