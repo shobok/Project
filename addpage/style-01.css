@@ -1,0 +1,17 @@
+.photo-pages {
+    text-align: center;
+    padding: 3em;
+    margin: 3em;
+    width: 70%;
+    height: 100%;
+    padding-bottom: 8em;
+}
+.background-dark-beige {
+    background-color: #BFA895;
+}
+.white-text {
+    color: white;
+}
+body {
+    background-color: #ebe6e0;
+}
