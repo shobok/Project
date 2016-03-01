@@ -203,7 +203,7 @@ a:visited {
         padding-left: 3em;
     }
     fieldset {
-        padding-left: 0;
+        padding-left: 0em;
     }
     .social-block {
         padding-left: 1em;
@@ -212,6 +212,9 @@ a:visited {
         display: none;
     }
 }
-
-
+.photo-pages {
+    text-align: center;
+    padding: 10em 10em;
+    margin: 5em 5em;
+}
 
