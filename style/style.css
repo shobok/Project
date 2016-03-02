@@ -1,5 +1,6 @@
 body {
     background-color: #ebe6e0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .brown-dark-text {
     color: #726257;
@@ -65,7 +66,7 @@ body {
 ul.skill li {
     text-align: left;
     width: 17em;
-    padding-left: 1.5em;
+    padding-left: 1em;
     padding-bottom: 1.5 em;
 }
 .icon {
@@ -134,6 +135,8 @@ ul.skill li {
 .btn-send:hover {
     background-color: #E2D0C5;
     color: #726257;
+    border: 1px solid;
+    border-color: #726257;
 }
 fieldset {
     width: 350px;
@@ -175,8 +178,10 @@ fieldset {
     height: 60px;
 }
 .social:hover {
-    color: white;
-    background-color: #ebe6e0;
+    color:  #E2D0C5;
+    background-color: #726257;
+    border: 2px solid;
+    border-color: #E2D0C5;
 }
 a:link {
     color: #726257;
