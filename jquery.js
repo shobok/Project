@@ -12,16 +12,16 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#above").hide();
+    $("#to-top").hide();
 	$(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $('#above').fadeIn();
+            $('#to-top').fadeIn();
         } else {
-            $('#above').fadeOut();
+            $('#to-top').fadeOut();
         }
     });
-	   $('#above').click(function () {
+	   $('#to-top').click(function () {
 	   $('body,html').animate({scrollTop: 0}, 900);
 	   return false;
         });
