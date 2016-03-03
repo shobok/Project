@@ -187,7 +187,7 @@ a:link {
     color: #726257;
 }
 a:visited {
-    color: #726257;
+    color: c;
 }
 .describe-img a:link {
     color: white;
@@ -216,6 +216,22 @@ a:visited {
     #think {
         display: none;
     }
+}
+#above {
+	position: fixed;
+    right: 5px;
+    top: 10px;
+	margin-right: 5px;
+	text-align: center;
+}
+#above a {
+	color: #726257;
+	text-transform: uppercase;
+    border: 1px solid #726257;
+}
+#above a:hover {
+	color: #E2D0C5;
+    background-color: #BFA895;
 }
 
 
