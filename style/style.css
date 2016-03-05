@@ -145,10 +145,8 @@ fieldset {
     width: 350px;
     height: 350px;
     padding: 10px 10px;
-    padding-left: 7em;
 }
 .contact-form {
-    /*width: 300px;*/
     height: 50px;
     position: relative;
 }
@@ -172,12 +170,12 @@ fieldset {
 }
 .social-block {
     padding: 2em;
-    padding-left: 3em;
     margin-bottom: 5em;
 }
 .social {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
 }
 .social:hover {
     color:  #E2D0C5;
@@ -223,5 +221,17 @@ a:visited {
     }
     #think {
         display: none;
+    }
+    .list-inline h4 {
+        display: none;
+    }
+    fieldset {
+        width: 250px;
+    }
+    .contact-form .input-text {
+        width: 250px;
+    }
+    .btn-send {
+        width: 250px;
     }
 }
