@@ -143,8 +143,7 @@ ul.skill li {
 fieldset {
     width: 350px;
     height: 350px;
-    padding: 5px 5px;
-    padding-left: 2em;
+    padding: 10px 10px;
 }
 .contact-form {
     width: 300px;
@@ -207,9 +206,6 @@ a:visited {
     }
     .info-about-me {
         padding-left: 3em;
-    }
-    fieldset {
-        padding-left: 0em;
     }
     .social-block {
         padding-left: 1em;
