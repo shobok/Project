@@ -26,6 +26,7 @@ body {
 .background-brown-dark {
     background-color: #726257;
 }
+
 #navigation li {
     font-size: 1.5em;
     padding: 1em;
@@ -129,7 +130,7 @@ ul.skill li {
 .info-about-me {
     text-align: left;
     padding-top: 1em;
-    padding-left: 10em;
+    padding-left: 7em;
 }
 .btn-send {
     width: 300px;
@@ -144,9 +145,10 @@ fieldset {
     width: 350px;
     height: 350px;
     padding: 10px 10px;
+    padding-left: 7em;
 }
 .contact-form {
-    width: 300px;
+    /*width: 300px;*/
     height: 50px;
     position: relative;
 }
@@ -189,12 +191,21 @@ a:link {
 a:visited {
     color: #726257;
 }
-.describe-img a:link {
-    color: white;
+#to-top {
+	position: fixed;
+    right: 5px;
+    top: 10px;
+	margin-right: 5px;
+	text-align: center;
 }
-.describe-img a:visited {
-    color: white;
+#to-top a {
+    border: 1px solid #726257;
 }
+#to-top a:hover {
+	color: #E2D0C5;
+    background-color: #BFA895;
+}
+
 @media screen and (max-width: 700px) {
     .paragraf {
         padding: 3em 3em;
@@ -213,18 +224,4 @@ a:visited {
     #think {
         display: none;
     }
-}
-#to-top {
-	position: fixed;
-    right: 5px;
-    top: 10px;
-	margin-right: 5px;
-	text-align: center;
-}
-#to-top a {
-    border: 1px solid #726257;
-}
-#to-top a:hover {
-	color: #E2D0C5;
-    background-color: #BFA895;
 }
