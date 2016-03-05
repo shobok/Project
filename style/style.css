@@ -23,6 +23,9 @@ body {
 .background-light-beige {
     background-color: #E2D0C5;
 }
+.background-brown-dark {
+    background-color: #726257;
+}
 #navigation li {
     font-size: 1.5em;
     padding: 1em;
@@ -130,7 +133,6 @@ ul.skill li {
 }
 .btn-send {
     width: 300px;
-    background-color: #726257;
 }
 .btn-send:hover {
     background-color: #E2D0C5;
@@ -168,7 +170,6 @@ fieldset {
     padding-top: 15px;
 }
 .social-block {
-    background-color: #726257;
     padding: 2em;
     padding-left: 3em;
     margin-bottom: 5em;
@@ -187,7 +188,7 @@ a:link {
     color: #726257;
 }
 a:visited {
-    color: c;
+    color: #726257;
 }
 .describe-img a:link {
     color: white;
@@ -225,13 +226,9 @@ a:visited {
 	text-align: center;
 }
 #to-top a {
-	color: #726257;
-	text-transform: uppercase;
     border: 1px solid #726257;
 }
 #to-top a:hover {
 	color: #E2D0C5;
     background-color: #BFA895;
 }
-
-
