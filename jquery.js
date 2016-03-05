@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $('a[href^="#"]').bind('click.smoothscroll',function(e) {
+    $('a[href^="#"]').not('a[href="#carousel"]' ).bind('click.smoothscroll',function(e) {
 		e.preventDefault();
 		var target = this.hash,
 		$target = $(target);
-		$('html, body').stop().animate({
+		$('html, body').stop().animate( {
 			'scrollTop': $target.offset().top
 		}, 1000, 'swing', function() {
 			window.location.hash = target;
@@ -11,9 +11,9 @@ $(document).ready(function() {
 	});
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
     $("#to-top").hide();
-	$(function () {
+	$(function() {
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
             $('#to-top').fadeIn();
