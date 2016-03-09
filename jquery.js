@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('a[href^="#"]').not('a[href="#carousel"], a[href="#nav"]' ).bind('click.smoothscroll',function(e) {
+    $('a[href^="#"]').not('a[href="#carousel"], a[href="#nav"],a[data-toggle="modal"]' ).bind('click.smoothscroll',function(e) {
 		e.preventDefault();
 		var target = this.hash,
 		$target = $(target);
