@@ -40,14 +40,14 @@
     <div class="container background-dark-beige" id="home">
        <div class="row">
             <div id="logo" class="text-center">
-                <h2 class="white-text text-uppercase animated zoomIn animated-text" id="name-logo">Oksana Shyshka</h2>
-                <h3 class="white-text animated zoomIn animated-text">Web UI/UX & Graphic designer</h3>
-                <a href="#main-contacts" class="btn background-light-beige text-uppercase brown-dark-text" role="button"><strong>Contact me</strong></a>
+                <h2 class="white-text text-uppercase animated slideInDown animated-text" id="name-logo">Oksana Shyshka</h2>
+                <h3 class="white-text">Web UI/UX & Graphic designer</h3>
+                <a href="#main-contacts" class="btn background-light-beige text-uppercase brown-dark-text animated slideInUp animated-text" role="button"><strong>Contact me</strong></a>
             </div>
         </div>
     </div>
 
-    <div class="container background-white" id="about-my">
+    <div class="container background-white wow fadeInUp animated-text" data-wow-duration="2s" id="about-my">
       <div class="row">
             <div class="col-lg-5 col-md-5">&nbsp;</div>
             <div class="col-lg-7 col-md-7 background-white" id="describe">
@@ -61,7 +61,7 @@
                         <ul class="skill list-unstyled">
                             <li>
                                 <div class="icon">
-                                    <i class="fa fa-th-large fa-3x light-beige-text icon-shadow"></i>
+                                    <i class="fa fa-th-large fa-3x light-beige-text icon-shadow wow rotateIn animated-text"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="heading-skill blue-text text-uppercase">UI/UX design</h4>
@@ -70,7 +70,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <i class="fa fa-language fa-3x light-beige-text icon-shadow"></i>
+                                    <i class="fa fa-language fa-3x light-beige-text icon-shadow wow rotateIn animated-text"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="heading-skill blue-text text-uppercase">web-design</h4>
@@ -84,7 +84,7 @@
                         <ul class="skill list-unstyled">
                             <li>
                                 <div class="icon">
-                                    <i class="fa fa-leanpub fa-3x light-beige-text icon-shadow"></i>
+                                    <i class="fa fa-leanpub fa-3x light-beige-text icon-shadow wow rotateIn animated-text"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="heading-skill blue-text text-uppercase">Photo book</h4>
@@ -93,7 +93,7 @@
                             </li>
                             <li>
                                 <div class="icon">
-                                    <i class="fa fa-modx fa-3x light-beige-text icon-shadow"></i>
+                                    <i class="fa fa-modx fa-3x light-beige-text icon-shadow wow rotateIn animated-text"></i>
                                 </div>
                                 <div class="description">
                                     <h4 class="heading-skill blue-text text-uppercase">Graphic design</h4>
@@ -107,7 +107,7 @@
         </div>
     </div>
 
-    <div class="container background-light-beige" id="mywork">
+    <div class="container background-light-beige wow fadeInUp animated-text" data-wow-duration="2s" id="mywork">
         <div class="row">
             <h3 class="heading-main text-uppercase">My works</h3>
             <p class="paragraf">These are some of my personal projects. There are models of promotional products, photo books, works on web design. <br> Leave feedback and suggestions <a href="#main-contacts">to me</a></p>
@@ -176,8 +176,8 @@
         </div>
     </div>
 
-    <div id="think" class="container background-white">
-        <div class="row">
+    <div id="think" class="container background-white wow fadeInUp animated-text" data-wow-duration="2s">
+        <div class="rows">
             <h3 class="heading-main brown-dark-text text-uppercase">Favourite quotes</h3>
             <div id="carousel" class="carousel slide">
                 <div class="carousel-inner">
@@ -220,10 +220,10 @@
         </div>
     </div>
 
-    <div class="container background-dark-beige" id="main-contacts">
+    <div class="container background-dark-beige wow fadeInUp animated-text" data-wow-duration="2s" id="main-contacts">
         <div class="row">
             <div class="col-lg-7 col-md-7 contacts">
-                <div class="info-about-me  white-text">
+                <div class="info-about-me white-text">
                     <h4 class="text-uppercase">My contacts</h4>
                     <br>
                     <br>
@@ -275,7 +275,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container wow fadeInUp animated-text" data-wow-duration="2s">
         <div class="row">
             <div class="social-block background-brown-dark">
                 <ul class="list-inline">
@@ -310,6 +310,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="wow.js"></script>
+    <script>new WOW().init();</script>
     <script src="jquery.js"></script>
 </body>
 </html>

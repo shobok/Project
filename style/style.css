@@ -33,11 +33,13 @@ body {
 }
 #nav {
     text-align: center;
-    padding-top: 3em;
+    padding-top: 4em;
+    padding-bottom: 2em;
 }
 #home {
-    height: 23em;
-    padding: 5em;
+    height: 35em;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 #name-logo {
     letter-spacing: 0.4em;
@@ -234,4 +236,12 @@ a:visited {
     .btn-send {
         width: 250px;
     }
+}
+#logo .animated-text {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 0.5s;
+}
+.icon .animated-text {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0.5s;
 }
