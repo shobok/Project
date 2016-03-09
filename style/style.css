@@ -205,11 +205,13 @@ a:visited {
 	color: #E2D0C5;
     background-color: #BFA895;
 }
-.photo-pages {
+.for-modal {
     text-align: center;
-    padding: 3em;
-    width: 100%;
-    height: 100%;
+    padding: 4em 2em;
+    width: inherit;
+}
+.for-modal p {
+    padding-bottom: 2em;
 }
 
 @media screen and (max-width: 700px) {
