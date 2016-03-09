@@ -245,6 +245,11 @@ a:visited {
         width: 250px;
     }
 }
+@media screen and (max-width: 415px) {
+    .for-modal img {
+        width: 150px;
+    }
+}
 #logo .animated-text {
     -webkit-animation-duration: 3s;
     -webkit-animation-delay: 0.5s;
