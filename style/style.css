@@ -254,5 +254,5 @@ a:visited {
     -webkit-animation-delay: 0.5s;
 }
 .modal {
-    overflow: scroll;
+    overflow: auto;
 }
