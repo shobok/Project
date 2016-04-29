@@ -94,6 +94,12 @@ ul.skill li {
 #mywork {
     text-align: center;
 }
+.work-list {
+    outline: none;
+}
+a.work-list {
+    outline-color: transparent;
+}
 .img-hover {
     opacity: 0.8;
     box-shadow: 0 0 0.7em #726257;
